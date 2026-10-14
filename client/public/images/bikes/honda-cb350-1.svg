@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="cruiser motorcycle illustration">
+  <rect x="-10" y="-10" width="820" height="520" fill="#ece9e6"/>
+  <rect x="-10" y="404" width="820" height="200" fill="#d8dbdd"/>
+  <ellipse cx="407.5" cy="406" rx="277.5" ry="10" fill="#000" opacity=".12"/>
+  
+    <circle cx="190" cy="330" r="70" fill="none" stroke="#1f2328" stroke-width="14"/>
+    <circle cx="190" cy="330" r="52" fill="none" stroke="#5b636d" stroke-width="2"/>
+    <g stroke="#5b636d" stroke-width="2"><line x1="138" y1="330" x2="242" y2="330"/><line x1="153.23044737829952" y1="293.2304473782995" x2="226.76955262170048" y2="366.7695526217005"/><line x1="190" y1="278" x2="190" y2="382"/><line x1="226.76955262170048" y1="293.2304473782995" x2="153.23044737829952" y2="366.7695526217005"/></g>
+    <circle cx="190" cy="330" r="9" fill="#1f2328"/>
+    <circle cx="190" cy="330" r="60" fill="none" stroke="#c6cbd1" stroke-width="3" stroke-dasharray="2 5"/>
+    <circle cx="625" cy="330" r="70" fill="none" stroke="#1f2328" stroke-width="14"/>
+    <circle cx="625" cy="330" r="52" fill="none" stroke="#5b636d" stroke-width="2"/>
+    <g stroke="#5b636d" stroke-width="2"><line x1="573" y1="330" x2="677" y2="330"/><line x1="588.2304473782996" y1="293.2304473782995" x2="661.7695526217004" y2="366.7695526217005"/><line x1="625" y1="278" x2="625" y2="382"/><line x1="661.7695526217004" y1="293.2304473782995" x2="588.2304473782996" y2="366.7695526217005"/></g>
+    <circle cx="625" cy="330" r="9" fill="#1f2328"/>
+    <circle cx="625" cy="330" r="60" fill="none" stroke="#c6cbd1" stroke-width="3" stroke-dasharray="2 5"/>
+  <path d="M190 330 L350 318" stroke="#1f2328" stroke-width="12" stroke-linecap="round"/>
+  <path d="M625 330 L570 190" stroke="#5b636d" stroke-width="12" stroke-linecap="round"/>
+  <path d="M570 190 L360 260" stroke="#1f2328" stroke-width="9" stroke-linecap="round"/>
+  <rect x="318" y="268" width="128" height="82" rx="14" fill="#3a4047"/>
+  <rect x="338" y="284" width="60" height="30" rx="6" fill="#4b525a"/>
+  <path d="M340 350 Q260 366 170 360" stroke="#8a9199" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M235 245 Q300 262 352 238 L350 262 L240 272 Z" fill="#1f2328"/>
+  
+  <path d="M345 225 Q410 188 485 215 L470 262 L350 266 Z" fill="#7a2d2d"/>
+  <path d="M570 190 l-25 -28" stroke="#1f2328" stroke-width="8" stroke-linecap="round" fill="none"/>
+  
+  <circle cx="588" cy="218" r="17" fill="#f3f4f5" stroke="#1f2328" stroke-width="6"/>
+</svg>
