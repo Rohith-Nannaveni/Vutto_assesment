@@ -1,4 +1,4 @@
-# Torque & Gavel: used-motorcycle auction platform
+# BikeBid: used-motorcycle auction platform
 
 A MERN marketplace where registered buyers bid on used motorcycles in live auctions and administrators manage listings and auction lifecycles. Prices update in real time over Socket.IO, and every bid is validated and arbitrated by the server.
 
