@@ -4,7 +4,10 @@ import { z } from 'zod';
 // All configuration is validated once at startup so misconfiguration fails fast.
 const schema = z.object({
   NODE_ENV: z.enum(['development', 'test', 'production']).default('development'),
-  PORT: z.coerce.number().int().positive().default(4000),
+  PORT: z.preprocess(
+  (value) => value === '' || value == null ? undefined : value,
+  z.coerce.number().int().positive().default(4000)
+),
   MONGODB_URI: z.string().min(1, 'MONGODB_URI is required'),
   JWT_SECRET: z.string().min(32, 'JWT_SECRET must be at least 32 characters'),
   JWT_EXPIRES_IN_HOURS: z.coerce.number().positive().default(8),
