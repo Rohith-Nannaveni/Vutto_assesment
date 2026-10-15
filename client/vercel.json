@@ -1,6 +1,13 @@
+
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://YOUR-API-NAME.onrender.com/api/:path*" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/api/:path*",
+      "destination": "https://vutto-assesment.onrender.com/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
