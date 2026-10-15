@@ -8,27 +8,7 @@ const schema = z.object({
   (value) => value === '' || value == null ? undefined : value,
   z.coerce.number().int().positive().default(4000)
 ),
-  MONGODB_URI: z.preprocess(
-  (value) => {
-    // Use local MongoDB only as a development fallback.
-    if (
-      process.env.NODE_ENV !== 'production' &&
-      (value == null || (typeof value === 'string' && value.trim() === ''))
-    ) {
-      return 'mongodb://127.0.0.1:27017/vutto_test';
-    }
-
-    return value;
-  },
-  z.string()
-    .min(1, 'MONGODB_URI is required')
-    .refine(
-      (uri) =>
-        uri.startsWith('mongodb://') ||
-        uri.startsWith('mongodb+srv://'),
-      'MONGODB_URI must be a MongoDB connection string'
-    )
-),
+  MONGODB_URI: z.string().min(1, 'MONGODB_URI is required'),
   JWT_SECRET: z.string().min(32, 'JWT_SECRET must be at least 32 characters'),
   JWT_EXPIRES_IN_HOURS: z.coerce.number().positive().default(8),
   // Comma-separated list of allowed browser origins.
